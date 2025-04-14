@@ -22,13 +22,13 @@ const Hero: React.FC = () => {
               <a href="#contact" className="btn-primary">
                 Get in Touch
               </a>
-              <a href="#projects" className="btn-secondary">
+              <a href="#projects" className="btn-secondary hover:bg-navy hover:text-white transition-all duration-300">
                 View Projects
               </a>
               <a 
                 href="/resume.pdf" 
-                download
-                className="btn-secondary flex items-center gap-2"
+                download="Ratnahari_Udayana_Resume.pdf"
+                className="btn-secondary hover:bg-navy hover:text-white transition-all duration-300 flex items-center gap-2"
               >
                 <Download size={16} />
                 Resume
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             
             <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '0.5s' }}>
               <a 
-                href="https://github.com" 
+                href="https://github.com/Hari203" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-navy text-white hover:bg-navy-light transition-colors duration-200"
@@ -65,11 +65,14 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="md:w-1/2 flex justify-center animate-fade-in-right" style={{ animationDelay: '0.6s' }}>
-            <img 
-              src="/uploads/profile-photo.png" 
-              alt="Ratnahari Udayana" 
-              className="w-64 h-auto md:w-80 object-cover rounded-lg shadow-lg"
-            />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-navy to-turquoise rounded-lg blur opacity-0 group-hover:opacity-70 transition duration-300"></div>
+              <img 
+                src="/uploads/profile-photo.png" 
+                alt="Ratnahari Udayana" 
+                className="w-64 h-auto md:w-80 object-cover rounded-lg shadow-lg relative z-10 transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
           </div>
         </div>
         

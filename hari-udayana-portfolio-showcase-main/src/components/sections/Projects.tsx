@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionTitle from '../ui/SectionTitle';
 import ProjectCard from '../ui/ProjectCard';
@@ -15,7 +14,14 @@ const Projects: React.FC = () => {
         { name: 'UI/UX' }
       ],
       demoLink: '#',
-      sourceLink: '#'
+      sourceLink: '#',
+      features: [
+        'User-friendly booking interface',
+        'Real-time room availability checking',
+        'Automated booking confirmation',
+        'Payment integration',
+        'Booking management dashboard'
+      ]
     },
     {
       title: 'Weather Web App',
@@ -27,7 +33,14 @@ const Projects: React.FC = () => {
         { name: 'API' }
       ],
       demoLink: '#',
-      sourceLink: '#'
+      sourceLink: '#',
+      features: [
+        'Real-time weather data',
+        'Location-based weather information',
+        '5-day weather forecast',
+        'Temperature unit conversion',
+        'Responsive design for all devices'
+      ]
     },
     {
       title: 'Sentiment Analysis System',
@@ -39,7 +52,14 @@ const Projects: React.FC = () => {
         { name: 'Scikit-learn' }
       ],
       demoLink: '#',
-      sourceLink: '#'
+      sourceLink: '#',
+      features: [
+        'Text sentiment classification',
+        'Support for multiple languages',
+        'Custom training capabilities',
+        'Batch processing support',
+        'Accuracy metrics and visualization'
+      ]
     }
   ];
 
@@ -61,6 +81,7 @@ const Projects: React.FC = () => {
               technologies={project.technologies}
               demoLink={project.demoLink}
               sourceLink={project.sourceLink}
+              features={project.features}
             />
           ))}
         </div>

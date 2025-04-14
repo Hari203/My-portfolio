@@ -1,0 +1,51 @@
+RATNAHARI UDAYANA
+=================
+
+CONTACT INFORMATION
+------------------
+Email: hariudayana2002@gmail.com
+Phone: 8978956673
+Location: Vizianagaram, Andhra Pradesh
+GitHub: github.com/Hari203
+LinkedIn: linkedin.com/in/ratnahari
+
+SUMMARY
+-------
+Final-year B.Tech CSE (AI & ML) student with strong problem-solving skills and a passion for building smart, scalable web and enterprise applications. Certified Pega Senior System Architect (CSSA) with experience in Python, Java, and SQL.
+
+EDUCATION
+---------
+Bachelor of Technology in Computer Science Engineering (AI & ML)
+Avanthi Institute of Engineering and Technology, Vizianagaram, Andhra Pradesh
+Sept 2021 - May 2025
+
+Intermediate Education (+1, +2)
+Sri Satya Sai Jr College, Palakonda, Andhra Pradesh
+2019 - 2021
+
+High School
+RCM Daniela Romanello EM School, Vangara, Andhra Pradesh
+2019
+
+SKILLS
+------
+Python, Java, SQL, Pega, Web Development, AI & ML, Data Science, Problem Solving
+
+CERTIFICATIONS
+-------------
+- Pega Certified Senior System Architect (V-23)
+- Pega Certified System Architect (V-23)
+- Programming for Everybody - Python (University of Michigan)
+- Introduction to Cloud Computing (IBM)
+
+ACHIEVEMENTS
+-----------
+- Best Outgoing Student – Pega UAP 2024-25
+- Winner – Pega Hackathon by Talent Sprint
+- Top Performer – Data Science Workshop & Hackathon (BrainoVision)
+
+PROJECTS
+--------
+Portfolio Showcase - Personal portfolio website built with React and Tailwind CSS
+Age Calculator - Web application to calculate age based on birth date
+Link Shortener - Application to shorten long URLs 
