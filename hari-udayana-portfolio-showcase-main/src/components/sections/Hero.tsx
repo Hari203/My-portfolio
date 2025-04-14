@@ -25,15 +25,14 @@ const Hero: React.FC = () => {
               <a href="#projects" className="btn-secondary hover:bg-navy hover:text-white transition-all duration-300">
                 View Projects
               </a>
-              <a 
+            {/* <a  
                 href="/resume.pdf" 
                 download="Ratnahari_Udayana_Resume.pdf"
                 className="btn-secondary hover:bg-navy hover:text-white transition-all duration-300 flex items-center gap-2"
               >
                 <Download size={16} />
                 Resume
-              </a>
-            </div>
+            </div> */}
             
             <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '0.5s' }}>
               <a 
