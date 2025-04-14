@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -33,7 +32,9 @@ const Navbar: React.FC = () => {
 
   return (
     <header className={`fixed top-0 w-full z-10 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-md py-2' : 'bg-white/80 backdrop-blur-md py-4'
+      scrolled 
+        ? 'bg-gradient-to-r from-white/95 via-white/90 to-white/95 shadow-md py-2 backdrop-blur-md' 
+        : 'bg-gradient-to-r from-white/80 via-white/75 to-white/80 backdrop-blur-md py-4'
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-navy font-heading">
@@ -65,7 +66,7 @@ const Navbar: React.FC = () => {
       
       {/* Mobile navigation */}
       {isMenuOpen && (
-        <nav className="md:hidden bg-white p-4 shadow-lg animate-fade-in">
+        <nav className="md:hidden bg-gradient-to-b from-white/95 to-white/90 p-4 shadow-lg animate-fade-in backdrop-blur-md">
           <ul className="space-y-4">
             {navLinks.map((link) => (
               <li key={link.name}>
