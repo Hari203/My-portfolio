@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 221 83% 11%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 48 100% 50%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 11%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-foreground antialiased;
+  }
+  
+  section {
+    @apply py-16 scroll-mt-20;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-navy mb-2 font-heading;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-10 max-w-3xl mx-auto;
+  }
+  
+  .section-divider {
+    @apply w-24 h-1 bg-turquoise mx-auto mt-4 mb-6;
+  }
+  
+  .nav-link {
+    @apply text-gray-700 hover:text-navy font-medium transition-colors duration-200;
+  }
+  
+  .nav-link.active {
+    @apply text-navy font-semibold;
+  }
+  
+  .skill-badge {
+    @apply px-3 py-1 bg-navy/10 text-navy rounded-full text-sm font-medium;
+  }
+
+  .project-link {
+    @apply inline-flex items-center gap-1 text-sm font-medium text-navy hover:text-turquoise transition-colors duration-200;
+  }
+  
+  .contact-input {
+    @apply w-full p-3 rounded-lg border border-gray-300 focus:border-navy focus:ring-1 focus:ring-navy outline-none transition-all duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-navy text-white hover:bg-navy-light px-6 py-3 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-navy border border-navy hover:bg-gray-50 px-6 py-3 rounded-lg font-medium transition-colors duration-200;
+  }
+}
