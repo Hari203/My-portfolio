@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 interface Technology {
   name: string;
@@ -45,11 +44,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           ))}
         </div>
         <div className="flex gap-4 mt-2">
-          {demoLink && (
-            <a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-link">
-              <ExternalLink size={16} /> Live Demo
-            </a>
-          )}
           {sourceLink && (
             <a href={sourceLink} target="_blank" rel="noopener noreferrer" className="project-link">
               <Github size={16} /> Source Code
